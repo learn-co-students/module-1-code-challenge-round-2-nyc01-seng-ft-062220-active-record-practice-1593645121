@@ -1,4 +1,4 @@
 class Employee < ActiveRecord::Base
-    belongs_to :manager
+    has_many :managers
     belongs_to :department
 end
