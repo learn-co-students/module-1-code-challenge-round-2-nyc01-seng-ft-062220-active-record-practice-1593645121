@@ -106,18 +106,19 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: "call_logs", "manager_employees"
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: ActiveRecord create "self.all", "self.create", "self.find()", "self.find_by()", "self.where()"..... and A LOT MORE
+    We had to create "self.most_callls"
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: When I had a has_many and has_many relationship. It would break the sing source of truth therefore had to create a join table to hold both of its foreign keys.
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: "call_logs", "manager_employees"
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_
