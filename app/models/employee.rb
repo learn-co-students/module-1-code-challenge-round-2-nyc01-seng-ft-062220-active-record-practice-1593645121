@@ -6,10 +6,11 @@ class Employee < ActiveRecord::Base
     has_many :specialists, through: :calls
 
     
-    #Employee#specialists is built in with ActiveRecord
-    #def specialists
-    #   self.specialists
-    #end
+    #Most is built in with ActiveRecord:
+    #   self.name
+    #   self.specialists (thanks to join table calls)
+    #   self.managers    (thanks to join table managerEmployees)
+    #  self.department
 
     def num_of_calls #user count method
         self.calls.count 

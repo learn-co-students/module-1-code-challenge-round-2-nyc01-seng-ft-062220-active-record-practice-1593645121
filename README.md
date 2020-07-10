@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: Tables ~  calls, employees, manager_employees  
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: Most were built in, see comments in class models. 
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: when two tables has a has_many relationship with one another.
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: managerEmployees & calls
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_
